@@ -5,8 +5,8 @@
 import {name as appName} from './app.json';
 import {AppRegistry} from 'react-native';
 
-//import App from './App';
-//AppRegistry.registerComponent(appName, () => App);
+import App from './app/App';
+AppRegistry.registerComponent(appName, () => App);
 
 ///////////////////////////////////////
 // import Bananas from './src/example/props/Banana';
@@ -27,5 +27,5 @@ import {AppRegistry} from 'react-native';
 // import FlatListBasics from "./src/example/listviews/FlatListBasics";
 // AppRegistry.registerComponent(appName, () => FlatListBasics);
 
-import SectionListBasics from "./src/example/listviews/SectionListBasics";
-AppRegistry.registerComponent(appName, () => SectionListBasics);
+//import SectionListBasics from "./src/example/listviews/SectionListBasics";
+//AppRegistry.registerComponent(appName, () => SectionListBasics);
